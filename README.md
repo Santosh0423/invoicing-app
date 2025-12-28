@@ -19,41 +19,41 @@ It supports login, dashboard, customers, products, sales invoices, and PDF expor
 
 ## Folder Structure
 invoicing-app/
-│
 ├── backend/
-│ ├── server.js
-│ ├── package.json
-│ ├── .env
-│ ├── config/
-│ │ ├── db.js
-│ │ └── jwt.js
-│ ├── controllers/
-│ │ ├── auth.controller.js
-│ │ ├── customer.controller.js
-│ │ ├── product.controller.js
-│ │ └── invoice.controller.js
-│ ├── models/
-│ │ ├── User.js
-│ │ ├── Customer.js
-│ │ ├── Product.js
-│ │ └── Invoice.js
-│ └── routes/
-│ ├── auth.routes.js
-│ ├── customer.routes.js
-│ ├── product.routes.js
-│ └── invoice.routes.js
+│   ├── server.js
+│   ├── package.json
+│   ├── .env
+│   ├── config/
+│   │   ├── db.js
+│   │   └── jwt.js
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── customer.controller.js
+│   │   ├── product.controller.js
+│   │   └── invoice.controller.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Customer.js
+│   │   ├── Product.js
+│   │   └── Invoice.js
+│   └── routes/
+│       ├── auth.routes.js
+│       ├── customer.routes.js
+│       ├── product.routes.js
+│       └── invoice.routes.js
 │
 ├── frontend/
-│ ├── index.html
-│ ├── vite.config.js
-│ ├── package.json
-│ └── src/
-│ ├── main.jsx
-│ ├── App.jsx
-│ ├── api/
-│ ├── pages/
-│ ├── components/
-│ ├── context/
-│ └── styles/
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   └── src/
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── api/
+│       ├── pages/
+│       ├── components/
+│       ├── context/
+│       └── styles/
 │
 └── README.md
+
